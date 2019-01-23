@@ -53,7 +53,7 @@ $ pip3 install requirements.txt
 ```
 Done!
 ```
-$ python3 Charlotte.py
+$ python3 Mirai.py
 ```
 
 If you want to get down and dirty with customizing the bot you'll need to edit `Charlotte.py`.
