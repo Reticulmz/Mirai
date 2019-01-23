@@ -10,7 +10,7 @@ We used Akatsuki's Charlotte as a base.
 ## How to set up this thing
 I don't really think you'd ever want to, but heres a thing anyways.
 ```
-$ git clone https://github.com/osuAkatsuki/Charlotte.git
+$ git clone https://github.com/osuAtoka/Mirai.git
 ```
 Then rename your config sample to just config.ini
 ```
