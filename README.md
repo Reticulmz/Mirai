@@ -1,8 +1,7 @@
-[![Discord](https://discordapp.com/api/guilds/365406575893938177/widget.png?style=shield)](https://discord.gg/5cBtMPW)
+## Mirai
 
-## Charlotte
-
-This is Akatsuki's discord bot's source code.
+This is Atoka's discord bot's source code.
+We used Akatsuki's Charlotte as a base.
 
 ## Requirements
 - Python
@@ -56,3 +55,5 @@ Done!
 ```
 $ python3 Charlotte.py
 ```
+
+If you want to get down and dirty with customizing the bot you'll need to edit `Charlotte.py`.
