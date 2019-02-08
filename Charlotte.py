@@ -34,7 +34,7 @@ db.ping(True)
 
 #Constants
 version = 1.27
-servers = ['yozora', 'ainu', 'kotorikku', 'kawata', 'toh.ru', 'ryusei', 'ryu-sei', 'waving', 'enjuu', 'verge', 'toh ru', 'toh-ru']
+servers = ['fuidskdsjkfdsfkdshfsdjksfd']
 emailChecks = ['verify e', 'verification', 'on email', 'verify m', 'verify a', 'email t']
 SQLChecks = [';', 'drop', 'ripple', 'select', '*'] # because im paranoid as fuck
 
