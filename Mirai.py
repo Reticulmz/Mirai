@@ -309,13 +309,13 @@ async def on_message(message):
 
             elif messagecontent[0].lower() == '$linkosu':
                 cursor = db.cursor()
-                cursor.execute("SELECT * FROM discord_roles WHERE discordid = {}".format(message.author.id))
+                cursor.execute("SELECT * FROM discord_roles WHERE discordid = %s", [message.author.id])
                 result = cursor.fetchone()
                 if result is not None:
                     if result[4] == 0:
                         role = discord.utils.get(message.server.roles, id=result[3])
                         await client.add_roles(message.author, role)
-                        cursor.execute("UPDATE discord_roles SET verified = 1 WHERE discordid = {}".format(message.author.id))
+                        cursor.execute("UPDATE discord_roles SET verified = 1 WHERE discordid = %s", [message.author.id])
                         await client.send_message(message.channel, "Your Discord account has been sucessfully linked to your Atoka account.")
                     else:
                         await client.send_message(message.channel, "You already have an account linked!")
